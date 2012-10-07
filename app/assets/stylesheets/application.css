@@ -11,3 +11,64 @@
  *= require_self
  *= require_tree .
  */
+/*
+ * Proyecto: Informaticos sin fronteras;
+*/
+
+.inner{
+	margin:0 auto;
+    max-width: 960px;
+    min-width: 599px;
+    width: 100%;
+}
+.inner:before,
+.inner:after {
+	display: table;
+  	line-height: 0;
+  	content: "";
+}
+
+.inner:after {
+  	clear: both;
+}
+
+/*================== header ==================*/
+#header{
+	padding:15px 0;
+  border-bottom: 1px dotted #B0B5B5;
+	/*background: none repeat scroll 0 0 #FD2121;*/
+}
+.header-border{
+	 border-bottom: 1px dotted #B0B5B5;
+	 border-right:1px dotted #B0B5B5;
+}
+
+#logo h1{
+  font-size: 30px;
+  line-height: normal;
+}
+/*================== menu-top ==================*/
+.menu-top{
+  border: 1px solid #579B18;
+   -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.navbar .nav > li > a{
+  background: #579B18;
+  text-shadow: none;
+  color:#ffffff;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus{
+   background: none repeat scroll 0 0 #478D07;
+  color:#ffffff;  
+}
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  background: none repeat scroll 0 0 #478D07;
+  text-decoration: none;
+  color:#ffffff;
+}
