@@ -7,8 +7,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+	<div class="container">
+		<%= yield %>	
+	</div>
 </body>
+
+<script type="text/javascript">
+	$('#carousel').elastislide({
+		imageW 	: 180,
+		minItems	: 5
+	});
+	
+	$('#myTab a').click(function (e) {
+		e.preventDefault();
+		$(this).tab('show');
+    })
+</script>
 </html>
