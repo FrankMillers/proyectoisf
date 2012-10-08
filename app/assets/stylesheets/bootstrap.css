@@ -5772,25 +5772,3 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
-
-
-/* Modificaciones */
-.alignleft {
-    float: left;
-    margin: 0 20px 15px 0;
-}
-
-abbr {
-    font-size: 10px;
-}
-
-.latest_news li:first-child {
-    margin: 0;
-}
-.latest_news li {
-    list-style: none outside none;
-    margin-top: 30px;
-}
-.latest_news li p {
-    padding-bottom: 0;
-}
