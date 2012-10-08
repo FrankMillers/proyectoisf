@@ -125,3 +125,27 @@ abbr {
     background: #304877;
     color: #fff;
 }
+
+#project-header{
+ text-align: center;
+} 
+#project-header #title {
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 10px 0 5px;
+}
+.projectby {
+    background: none repeat scroll 0 0 #E3F0FD;
+    padding: 15px;
+    border: 1px solid #E3F0FD;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+    word-wrap: break-word;
+}    
+
+.imagen-perfil{
+ text-align: center;
+ margin-top: 18px;
+}

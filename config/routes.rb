@@ -1,4 +1,7 @@
 Pyinformaticos::Application.routes.draw do
+  get "proyectos/index"
+  get "proyectos/contacto"
+
   get "home/index"
  
   # The priority is based upon order of creation:
