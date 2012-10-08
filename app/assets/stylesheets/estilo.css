@@ -55,3 +55,13 @@
   text-decoration: none;
   color:#ffffff;
 }
+
+
+#slider-header{
+  background: #ccc;
+}
+
+#myCarousel{
+  width: 500px;
+  margin:0 auto;
+}

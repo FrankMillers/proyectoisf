@@ -1,4 +1,8 @@
 Pyinformaticos::Application.routes.draw do
+  get "contenidos/index"
+
+  get "contenidos/videotutoriales"
+
   get "proyectos/index"
   get "proyectos/contacto"
 
